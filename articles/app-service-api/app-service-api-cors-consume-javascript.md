@@ -32,23 +32,23 @@ You can configure CORS in the Azure portal or by using [Azure Resource Manager](
 
 #### Configure CORS in the Azure portal
 
-8. In a browser go to the [Azure portal](https://portal.azure.com/).
+1. In a browser go to the [Azure portal](https://portal.azure.com/).
 
 2. Click **App Services**, and then click the name of your API app.
 
 	![Select API app in portal](./media/app-service-api-cors-consume-javascript/browseapiapps.png)
 
-10. In the **Settings** blade that opens to the right of the **API app** blade, find the **API** section, and then click **CORS**.
+3. In the **Settings** blade that opens to the right of the **API app** blade, find the **API** section, and then click **CORS**.
 
 	![Select CORS in Settings blade](./media/app-service-api-cors-consume-javascript/clicksettings.png)
 
-11. In the text box enter the URL or URLs that you want to allow JavaScript calls to come from.
+4. In the text box enter the URL or URLs that you want to allow JavaScript calls to come from.
 
 
 	For example, if you deployed your JavaScript application to a web app named todolistangular, enter "https://todolistangular.azurewebsites.net". As an alternative, you can enter an asterisk (*) to specify that all origin domains are accepted.
 
 
-13. Click **Save**.
+5. Click **Save**.
 
 	![Click Save](./media/app-service-api-cors-consume-javascript/corsinportal.png)
 
